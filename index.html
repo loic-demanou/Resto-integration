@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>First integration</title>
+</head>
+
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class='bx bx-menu'></i>
+            <!-- <img src="./images/bar.png" height="50px" width="50px"> -->
+        </label>
+        <label class="logo"><span>R</span>esto</label>
+        <ul>
+            <li><a class="active" href="#">Accueil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Témoignage</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#" class="resa" onclick="toggleMenu();">Réservation</a>
+        </ul>
+    </nav>
+
+
+    <!-- <header>
+        <div class="logo"><span>R</span>esto</div>
+        <div class="menutoggle" onclick="toggleMenu();" ></div>
+        <div class="menu">
+            <ul class="navbar">
+                <li><a href="#" onclick="toggleMenu();">Accueil</a></li>
+                <li><a href="#about" onclick="toggleMenu();">A propos</a></li>
+                <li><a href="#menu" onclick="toggleMenu();">Menu</a></li> 
+                <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+                <li><a href="#temoignage" onclick="toggleMenu();">Témoignage</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                <a href="#" class="resa" onclick="toggleMenu();">Réservation</a>
+            </ul>
+        </div>
+    </header> -->
+    <div class="back">
+        
+    </div>
+        <section class="banner">
+            <p class="title">Que des plats délicieux</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Reprehenderit asperiores, veritatis voluptate 
+                iure repellendus incidunt at delectus nostrum architecto 
+                necessitatibus pariatur aspernatur cum amet officiis iste nemo 
+                quibusdam? Numquam, laudantium.</p>
+                <div class="btns">
+                    <button>Notre menu</button>
+                    <button>table de réservation</button>
+                </div>
+        </section>
+    <section class="about" id="about">
+        <div class="left">
+            <p><span>A</span> propos de nous</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quae illo velit obcaecati quis possimus alias sunt voluptatem libero, 
+                ad enim deserunt consequuntur? Incidunt blanditiis fugiat nam architecto 
+                fugit natus facilis?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, amet. 
+                Corporis quae eos in dolores voluptates blanditiis, modi placeat voluptatibus,
+                a veritatis, nobis quia? Quam ab odio inventore dicta laudantium iusto.
+            </p>
+        </div>
+        <div class="right">
+            <img src="./images/plat4.jpg" alt="plat apropos">
+        </div>
+    </section>
+    <section class="menus" id="menu">
+        <div class="title">
+            <p><span>M</span>enu</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, doloribus.</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat1.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat2.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat3.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat4.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat5.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./images/plat1.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn-show-all">VOIR TOUT</button>
+        </div>
+    </section>
+
+    <section class="experts" id="expert">
+        <div class="title">
+            <p>Nos <span>E</span>xperts</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, doloribus.</p>
+        </div>
+        <div class="cards2">
+            <div class="card2">
+                <div class="img">
+                    <img src="./images/equipe1.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card2">
+                <div class="img">
+                    <img src="./images/equipe2.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card2">
+                <div class="img">
+                    <img src="./images/equipe3.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+            <div class="card2">
+                <div class="img">
+                    <img src="./images/equipe4.jpg" alt="plat1" >
+                </div>
+                <p class="desc">Special salade</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="temoignage" id="temoignage">
+        <div class="title">
+            <p>Que disent nos <span>C</span>lients</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, doloribus.</p>
+        </div>
+        <div class="cards3">
+            <div class="card3">
+                <div class="img">
+                    <img src="./images/t1.jpeg" alt="plat1" >
+                </div>
+                <i class="desc">Lorem ipsum dolor sit amet cing elit. Laborum consequuntur sed ipsa neque. Repudiandae sit velit accusantium, eos minima vel accusamus aspernatur dolor non dolorum error officia libero veritatis placeat.</i><br>
+                <p class="desc_name">Lama faché</p>
+            </div>
+            <div class="card3">
+                <div class="img">
+                    <img src="./images/t2.jpg" alt="plat1" >
+                </div>
+                <i class="desc">Lorem ipsum dolor sit amet cing elit. Laborum consequuntur sed ipsa neque. Repudiandae sit velit accusantium, eos minima vel accusamus aspernatur dolor non dolorum error officia libero veritatis placeat.</i><br>
+                <p class="desc_name">Lama faché</p>
+            </div>
+            <div class="card3">
+                <div class="img">
+                    <img src="./images/t3.jpg" alt="plat1" >
+                </div>
+                <i class="desc">Lorem ipsum dolor sit amet cing elit. Laborum consequuntur sed ipsa neque. Repudiandae sit velit accusantium, eos minima vel accusamus aspernatur dolor non dolorum error officia libero veritatis placeat.</i> <br>
+                <p class="desc_name">Lama faché</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <p><span>C</span>ontact</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, doloribus.</p>
+        </div>
+        <div class="form">
+            <p>Envoyez un message</p>
+            <input type="text" class="form-name" placeholder="Nom">
+            <input type="email" class="form-email" placeholder="Email">
+            <textarea cols="3" rows="5" class="form-message" placeholder="Message"></textarea>
+            <div class="btn">
+                <button class="form-send">Envoyer</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Copyright &copy; 2022 <a href="http://loicporfolio.netlify.app" target="_blank" >Loïc Demanou</a> .Tous droits reservés</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('nav');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+
+    </script>
+</body>
+
+</html>
